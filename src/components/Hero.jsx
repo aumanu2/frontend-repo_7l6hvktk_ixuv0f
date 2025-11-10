@@ -24,7 +24,8 @@ const Hero = ({ theme, onSelectCategory }) => {
   return (
     <section className="relative">
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/5bLXa0vzf0p6rQmM/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        {/* Updated Spline asset to a valid, accessible scene */}
+        <Spline scene="https://prod.spline.design/Qe6dlWJktclXcUBS/scene.splinecode" style={{ width: '100%', height: '100%' }} />
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
