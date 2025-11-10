@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, MapPin, BadgeDollarSign } from 'lucide-react';
+import { Star, MapPin, DollarSign } from 'lucide-react';
 
 const vendorsMock = [
   {
@@ -55,7 +55,7 @@ const VendorCard = ({ vendor, accent }) => {
           </div>
         </div>
         <div className="inline-flex items-center gap-1 px-2 py-1 rounded-full border border-gray-200 text-xs text-gray-700 bg-white">
-          <BadgeDollarSign className="w-4 h-4" /> {vendor.price}
+          <DollarSign className="w-4 h-4" /> {vendor.price}
         </div>
       </div>
     </div>
